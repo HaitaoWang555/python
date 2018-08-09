@@ -12,4 +12,4 @@ login = LoginManager(app)
 login.login_view = 'login'
 
 # 解决循环导入问题
-from app import routes, models
+from app import routes, models, errors
